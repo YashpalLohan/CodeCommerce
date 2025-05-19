@@ -3,7 +3,7 @@ export default function HeroBanner() {
         <section className="flex flex-col md:flex-row w-full h-[500px] border border-gray-500 mx-auto max-w-screen-xl mt-[20.5px]">
             {/* Left side - text */}
             <div className="flex flex-col justify-center items-start w-full md:w-1/2 bg-white px-10">
-                <p className="text-sm text-gray-500 tracking-widest uppercase mb-2 relative">
+                <p className="text-sm text-gray-500 uppercase mb-2 relative">
                     <span className="inline-block w-10 h-[1px] bg-gray-400 mr-3 align-middle"></span>
                     Our Bestsellers
                 </p>

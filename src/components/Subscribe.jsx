@@ -1,22 +1,8 @@
 import React, { useState } from 'react';
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 const Subscribe = () => {
     const [email, setEmail] = useState('');
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        // Handle subscription logic here
-        console.log('Subscribed with email:', email);
-        toast.success('Subscribed successfully!', {
-            position: 'top-right',
-            autoClose: 3000,
-            hideProgressBar: true,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-        });
         setEmail('');
     };
 
